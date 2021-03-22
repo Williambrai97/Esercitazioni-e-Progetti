@@ -6,12 +6,12 @@
             <figliofiglio>contenuto del figlio</figliofiglio>
             contenuto nodo figlio
         </figlio>
-        questo elemento è annidato in maniera corretta
-    </noNasted
+        questo elemento è annidato in maniera corretta.
+    </nested>
 
     <noGood>
         <figlio1>contenuto del figlio 1</figlio1>
-        <figlio2>contenuto del figlio 2
+        <figlio2>contenuto del figlio 2 annidato in maniera sbagliata
     </noGood>
-    </figlio2
+        </figlio2>
 </noNasted
