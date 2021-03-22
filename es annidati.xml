@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<noNasted>
+    <nested>
+        <figlio>
+            <figliofiglio>contenuto del figlio</figliofiglio>
+            contenuto nodo figlio
+        </figlio>
+        questo elemento è annidato in maniera corretta
+    </noNasted
+
+    <noGood>
+        <figlio1>contenuto del figlio 1</figlio1>
+        <figlio2>contenuto del figlio 2
+    </noGood>
+    </figlio2
+</noNasted
