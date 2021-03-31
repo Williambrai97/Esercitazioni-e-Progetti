@@ -1,0 +1,13 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<docu>
+    <element>
+    <child>
+    </child>
+    <sibling>
+    </sibling>
+    </element>
+    <nowell>
+    </nowell><!--ho chiuso il tag nowell prima dell'apertura del tag over-->
+        <over>
+        </over><!--il tag over conteneva solo la chiusura del tag nowell-->
+</docu>
