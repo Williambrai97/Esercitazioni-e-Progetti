@@ -1,0 +1,20 @@
+<!ELEMENT TEI (teiHeader, text)>
+<!ELEMENT teiHeader (fileDesc)>
+<!ELEMENT text (body)>
+<!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+<!ELEMENT body (div)+>
+<!ELEMENT titleStmt (title, respStmt)>
+<!ELEMENT publicationStmt (date)>
+<!ELEMENT sourceDesc (bibl)>
+<!ELEMENT div (p)+>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT respStmt (resp, name)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT bibl (title, author, date)>
+<!ELEMENT p (#PCDATA|num|name|title)*>
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+<!ATTLIST num value CDATA #IMPLIED>
+<!ATTLIST num type (cardinal|ordinal|fraction|percentage) #IMPLIED>
