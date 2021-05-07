@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "testocodificato.dtd">
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Storia e patrimonio.txt</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Brai William</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>06-05-2021</date>
+            </publicationStmt>
+            <sourceDesc><bibl>
+                    <title>Storia e patrimonio</title>
+                    <author>Brai William</author>
+                    <date>06/05/2021</date>
+                </bibl></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div><p>Sebbene nell  antichità  non esistevano tutela dei beni culturali, vi era la presenza del Sacro a simboleggiare un rispetto per la conservazione del patrimonio di beni materiali.</p></div>
+            <div><p>In età greca i templi erano deposito di storie, memorie e di beni locali. Nel  periodo romano si sviluppò il concetto di monumento inteso come testimonianza della memoria collettiva. Gli aristocratici svilupparono il collezionismo. I monumenti venivano conservati con devota sacralità Ma la loro salvaguardia veniva applicata in maniera selettiva.</p></div>
+            <div><p>Tra il <num type="ordinal" value="4">quarto</num> e il <num type="ordinal" value="5">quinto</num> secolo <name>Teodosio</name><num type="cardinal" value="2">II</num> ordinò la non distruzione delle chiese profane, riadattandole e convertendole al cristianesimo. Con il crollo dell'Impero <name>Romano d'Occidente</name> si ebbe l'abbandono e la distruzione di abitazioni monumenti e altre strutture.</p></div>
+            <div><p>Nel <num type="ordinal" value="6">sesto</num> secolo si diffuse il ruolo del monaco come studioso e copista di testi antichi così il passaggio dal rotolo al libro ne ha favorito la conservazione. Le prime leggi volta a stabilire la tutela del patrimonio si Ebbero tra il <num type="cardinal" value="15">XV</num> e <num type="cardinal" value="16">XVI</num> secolo. Esse vennero fatte Dai papi e riguardavano il divieto a non spogliare edifici del loro materiale per essere utilizzati in altri ambiti.</p></div>
+            <div><p>Alla fine del <num type="ordinal" value="400">400</num> nacquero i <name>Musei Capitolini</name>. Il <name>Campidoglio</name> diventò così un deposito di monumenti che ricollegavano la <name>Roma</name> papale alla <name>Roma</name> imperiale. Agli inizi del <num type="ordinal" value="500">500</num> <name>Baldassarre Castiglione</name> e <name>Raffaele Sanzio</name> inviarono una lettera a <name>Papa Leone</name><num type="cardinal" value="10">Decimo</num> dove suggerivano il restauro della <name>Roma</name> antica. Nel <num type="ordinal" value="600">Seicento</num> si vieta l'esportazione illegale di opere d'arte e oggetti antichi che erano legati alla cultura del passato. Nel <num type="ordinal" value="700">700</num> con il fenomeno del <name>Grand Tour</name> che coinvolse nobili europei nella conoscenza del passato si identificò la differenza tra un opera rara e una priva di rarità. Inoltre si vietò la falsificazione delle opere. Alla fine del <num type="ordinal" value="800">800</num> in <name>Gran Bretagna</name> si approva la legge che stabiliva che tutti i beni mobili e immobili appartenenti a qualsiasi persona potevano essere collocati o classificati dal ministro dell'istruzione pubblica, questo fu l'inizio di una politica basata sul recupero, il restauro del patrimonio  e la sua tutela diventano compito imprescindibile dello Stato. I monumenti non sono più difesi per la propria sacralità Ma per il significato ottenuto dalla interpretazione che ne dà la comunità. Nel <num type="ordinal" value="1860">1861</num> nacque la biblioteca nazionale di <name>Firenze</name> e nell'ordinamento statale si dividono i compiti il ministro dell'istruzione pubblica che si occupa della tutela mentre il ministro degli Interni si occupa degli archivi e del restauro dei monumenti.</p></div>
+            <div><p>Il concetto di patrimonio è inteso oggi come un insieme di beni ambientali culturali materiali e immateriali, ha visto col tempo un ampliamento del suo significato. Questo ampliamento  è manifestato dalla natura che va incluso nel patrimonio in quanto testimonianza dell'eredità collettiva. Il concetto di patrimonio culturale è stato utilizzato da <name>Quincy</name>  in una serie di lettere <title>"lettere a Miranda”</title>.</p></div>
+        </body>
+    </text>
+</TEI>
