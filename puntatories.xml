@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ELEMENT TEI (teiHeader, text)>
+<!ELEMENT teiHeader (fileDesc)>
+<!ELEMENT text (body)>
+<!ELEMENT fileDesc (titleStmt, publicationStmt, SourceDesc)>
+<!ELEMENT body (div)+>
+<!ELEMENT titleStmt (title, respStmt)>
+<!ELEMENT  publicationStmt (publisher, date)>
+<!ELEMENT SourceDesc (bibl)>
+<!ELEMENT respStmt (resp, name)>
+<!ELEMENT bibl (title, author, publisher, date)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)> 
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT div (p)+>
+<!ELEMENT p (#PCDATA|ptr|note|list|gloss|rs|term)*>
+<!ELEMENT ptr EMPTY>
+<!ATTLIST ptr target CDATA "http://tei-c.org/release/doc/tei-p5-doc/en/html/ref-ptr.html">
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT list (head, (label, item)+)>
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT head (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT gloss (#PCDATA)>
+<!ELEMENT rs (#PCDATA)>
+<!ELEMENT term (#PCDATA)>
+<!ATTLIST note place (top|bottom|margin|opposite|overleaf|right|left|below|end|inline|inspace) #REQUIRED>
+<!ATTLIST note type CDATA #IMPLIED>
+<!ATTLIST respStmt xml:id ID #IMPLIED>
+<!ATTLIST note resp CDATA #IMPLIED>
+<!ATTLIST list type (gloss|index|instructions|litany|syllogism) #IMPLIED>
+<!ATTLIST gloss target CDATA #IMPLIED>
+<!ATTLIST rs type CDATA #IMPLIED>
+<!ATTLIST term xml:id ID #IMPLIED>
+<!ATTLIST term rend CDATA #IMPLIED>]>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+                <respStmt xml:id="WBT">
+                    <resp>Testo codificato</resp>
+                    <name>William Brai</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Privato</publisher>
+                <date>10/05/2021</date>
+            </publicationStmt>
+            <SourceDesc><bibl>
+                <title>Esempio di utilizzo di alcuni elementi</title>
+                <author>William Brai</author>
+                <publisher>Privato</publisher>
+                <date>10/05/2021</date>
+            </bibl></SourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text><body>
+    <div><p>Questo è un esempio di puntatore ptr<ptr target="http://tei-c.org/release/doc/tei-p5-doc/en/html/ref-ptr.html"/></p></div>
+    <div><p>Questa è <note place="top" type="gloss" resp="#WBT">una nota di esempio</note></p></div>
+    <div>
+        <p>Questo è un esempio di
+            <list type="gloss">
+                <head>Prima lista</head>
+                <label>El1</label>
+                <item>Elemento uno</item>
+                <label>El2</label>
+                <item>Elemento due</item>
+                <label>El3</label>
+                <item>Elemento tre</item>
+            </list>
+        </p>
+    </div>
+    <div><p>Esempio di glossa<gloss target="#WBT">Testo codificato da William Brai</gloss></p></div>
+    <div><p>Esempio di riferimento a persona <rs type="person">William Brai</rs></p></div>
+    <div><p>Esempio term <term xml:id="HTML" rend="italic">HyperText Markup Language</term></p></div>
+    </body></text>
+</TEI>
