@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "articolorivista.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Codifica di un articolo di rivista</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>William Brai</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pubblicazione privata</publisher>
+                <avalability status="free"><p>Il file non ha licenza</p></avalability>
+                <date>10/05/2021</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Le notizie di scienza della settimana</title>
+                    <author>Claudia Grisanti</author>
+                    <publisher>Internazionale</publisher>
+                    <date>09/05/2021</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Testo codificato per esercizio.</p>
+            </projectDesc>
+            <editorialDescl>
+                <normalization><p>Codifica eseguita mediante la visione delle linee guida della TEI</p></normalization>
+            </editorialDescl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+        </profileDesc>     
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <titlePart>Le notizie di scienza della settimana</titlePart>
+                <byline>di<docAuthor>C. Grisanti</docAuthor></byline>
+                <docEdition>Edizione integrale</docEdition>
+                <docImprint>
+                    <publisher>Internazionale</publisher>
+                    <pubPlace>http://intern.az/1D</pubPlace>
+                    <date>09 maggio 2021</date>
+                    <time>15:03</time>
+                </docImprint>
+            </titlePage>
+        </front>
+        <body>
+        <lb/>
+        <div>
+            <p>
+                <list rend="simple">
+                    <item>Gli <Placename>Stati Uniti</Placename> hanno detto di voler <ref target="https://ustr.gov/about-us/policy-offices/press-office/press-releases/2021/may/statement-ambassador-katherine-tai-covid-19-trips-waiver">rinunciare alla proprietà intellettuale sui vaccini</ref> contro il <name>covid-19</name>.</item>
+                    <item><name>Il covid-19</name> potrebbe aver causato <num type="cardinal" value="6900000">6,9 milioni</num> di morti a livello globale. Gli <Placename>Stati Uniti</Placename> potrebbero aver avuto <num type="cardinal" value="900000">900mila</num> decessi, l’<Placename>Italia</Placename> <num type="cardinal" value="17000">175mila</num>. L’<Placename>Azerbaigian</Placename> potrebbe essere il paese con più morti rispetto alla popolazione, seguito da <Placename>Bosnia</Placename> e <Placename>Bulgaria</Placename>.</item>
+                    <item>Secondo uno studio preliminare, la vaccinazione contro il <name>covid-19</name> potrebbe <ref target="https://khub.net/documents/135939561/390853656/Impact%20of%20vaccination%20on%20household%20transmission%20of%20SARS-COV-2%20in%20England.pdf/35bf4bb1-6ade-d3eb-a39e-9c9b25a8122a?t=1619601878136">ridurre il contagio in famiglia</ref>.</item>
+                    <item>Si pensa che l’<ref target="https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciab347/6248519">autista di un minibus</ref> possa aver trasmesso il <name>covid-19</name> ai passeggeri, malgrado l’uso di mascherine e distanziamento fisico.</item>
+                    <item>La <ref target="https://www.nature.com/articles/d41586-021-00805-6">tomba di un bambino</ref>, trovata in <Placename>Kenya</Placename>, è la più antica del mondo. Risale a <num type="cardinal" value="78000">78mila</num> anni fa.</item>
+                    <item><ref target="https://www.sciencedirect.com/science/article/pii/S0960982221004760?via%3Dihub">Gli squali</ref> utilizzano il campo magnetico terrestre per orientarsi durante le lunghe migrazioni.</item>
+                    <item>Per combattere il cambiamento climatico è necessario <ref target="https://news.un.org/en/story/2021/05/1091402">ridurre le emissioni di metano</ref>, un potente gas serra.</item>
+                    <item>È improbabile che <ref target="https://www.nature.com/articles/s41558-021-01032-7">l’idrogeno</ref> riesca a sostituire i carburanti di origine fossile, a causa del costo eccessivo.</item>
+                    <item>Sono stati identificati quattro tipi di accumulo di <name>proteina tau</name> nel cervello, che porta allo <ref target="https://www.nature.com/articles/s41591-021-01309-6">sviluppo della <name>malattia di Alzheimer</name></ref>.</item>
+                    <item>I circuiti nervosi che regolano l’effetto <ref target="https://www.sciencedirect.com/science/article/pii/S1053811921001105?via%3Dihub">placebo e nocebo</ref> sono distinti.</item>
+                    <item>Il <name>Podargus strigoides</name>, un parente dei succiacapre, è l’uccello <ref target="https://journals.sagepub.com/doi/full/10.1177/20416695211003585">più fotogenico su <name>Instagram</name></ref>.</item>
+                    <item>Uno studio sui materiali potrebbe permettere la <ref target="https://advances.sciencemag.org/content/7/19/eabf4098">trasformazione tridimensionale</ref> di un oggetto piatto. Si potrebbe produrre per esempio un formato di pasta piatto che, cuocendo, diventa elicoidale.</item>
+                    <item><ref target="https://www.nature.com/articles/s41598-021-88702-w">I cani di razze cooperative</ref>, come i cani pastore, o non di razza, stabiliscono più facilmente la comunicazione con le persone rispetto ai cani di razze non cooperative, come quelli da guardia o da slitta.</item>
+                </list>
+            </p>
+        </div>
+        </body>
+    </text>
+</TEI>
