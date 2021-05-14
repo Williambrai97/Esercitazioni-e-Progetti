@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "cartolina.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Codifica di un articolo di una cartolina</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>William Brai</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pubblicazione privata</publisher>
+                <avalability status="free"><p>Il file non ha licenza</p></avalability>
+                <date>14/05/2021</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <publisher>La bottega dello sguardo</publisher>
+                    <date>31/03/2020</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Testo codificato per esercizio.</p>
+            </projectDesc>
+            <editorialDescl>
+                <normalization><p>Codifica eseguita mediante la visione delle linee guida della TEI</p></normalization>
+            </editorialDescl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+        </profileDesc>     
+    </teiHeader>
+    <text>
+        <body>
+            <div type="cartolina">
+                <opener>
+                    <title>Cartolina 9</title>
+                    <dateline>
+                        <name type="place">Villanova di Bagnocavallo</name>
+                        <date>23 marzo 2020</date>
+                        <time>13:00</time>
+                    </dateline>
+                </opener>
+                <p>Nulla si muove, se non i rami nel vento.</p>
+                <p>Un raggio di sole fa la differenza.</p>
+                <closer>
+                    <signed>Laura</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
