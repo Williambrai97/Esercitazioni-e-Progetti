@@ -1,0 +1,35 @@
+<!ELEMENT TEI (teiHeader, text)>
+<!ELEMENT teiHeader (fileDesc, encodingDesc, profileDesc)>
+<!ELEMENT text (body)>
+<!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+<!ELEMENT encodingDesc (projectDesc, editorialDescl)>
+<!ELEMENT profileDesc (langUsage)>
+<!ELEMENT body (div)>
+<!ELEMENT titleStmt (title, respStmt)>
+<!ELEMENT publicationStmt (publisher, avalability, date)>
+<!ELEMENT sourceDesc (bibl)>
+<!ELEMENT projectDesc (p)>
+<!ELEMENT editorialDescl (normalization)>
+<!ELEMENT langUsage (language)>
+<!ELEMENT div (opener, p+, closer)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT respStmt (resp, name)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT avalability (p)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT bibl (publisher, date)>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT normalization (p)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT opener (title, dateline)>
+<!ELEMENT closer (signed)>
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT dateline (name, date, time)>
+<!ELEMENT signed (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ATTLIST TEI xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST avalability status (free|unknown|restricted) #IMPLIED>
+<!ATTLIST language ident CDATA #REQUIRED>
+<!ATTLIST div type CDATA #IMPLIED>
+<!ATTLIST name type (person|place|org) #IMPLIED>
