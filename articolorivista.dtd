@@ -1,0 +1,48 @@
+<!ELEMENT TEI (teiHeader, text)>
+<!ELEMENT teiHeader (fileDesc, encodingDesc, profileDesc)>
+<!ELEMENT text (front, body)>
+<!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+<!ELEMENT encodingDesc (projectDesc, editorialDescl)>
+<!ELEMENT profileDesc (langUsage)>
+<!ELEMENT front (titlePage)>
+<!ELEMENT body (lb, div+)>
+<!ELEMENT titleStmt (title, respStmt)>
+<!ELEMENT publicationStmt (publisher, avalability, date)>
+<!ELEMENT sourceDesc (bibl)>
+<!ELEMENT projectDesc (p)>
+<!ELEMENT editorialDescl (normalization)>
+<!ELEMENT langUsage (language)>
+<!ELEMENT titlePage (titlePart, byline, docEdition, docImprint)>
+<!ELEMENT div (p)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT respStmt (resp, name)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT avalability (p)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT bibl (title, author, publisher, date)>
+<!ELEMENT p (#PCDATA|list)*>
+<!ELEMENT normalization (p)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT titlePart (#PCDATA)>
+<!ELEMENT byline (#PCDATA|docAuthor)*>
+<!ELEMENT docEdition (#PCDATA)>
+<!ELEMENT docImprint (publisher, pubPlace, date, time)>
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT docAuthor (#PCDATA)>
+<!ELEMENT pubPlace (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT lb EMPTY>
+<!ELEMENT list (item)+>
+<!ELEMENT item (#PCDATA|name|Placename|num|ref)*>
+<!ELEMENT Placename (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT ref (#PCDATA|name)*>
+<!ATTLIST TEI xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST avalability status (free|unknown|restricted) #IMPLIED>
+<!ATTLIST language ident CDATA #REQUIRED>
+<!ATTLIST list rend CDATA #IMPLIED>
+<!ATTLIST num type (cardinal|ordinal|fraction|percentage) #IMPLIED>
+<!ATTLIST ref target CDATA #IMPLIED>
+<!ATTLIST num value CDATA #IMPLIED>
