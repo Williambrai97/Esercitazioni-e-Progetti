@@ -1,0 +1,69 @@
+<!ELEMENT TEI (teiHeader, text, facsimile)>
+<!ELEMENT teiHeader (fileDesc, encodingDesc)>
+<!ELEMENT text (body)>
+<!ELEMENT facsimile (surface)>
+<!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+<!ELEMENT encodingDesc (p)>
+<!ELEMENT body (div)>
+<!ELEMENT surface (graphic, zone+)>
+<!ELEMENT titleStmt (title, author, respStmt)>
+<!ELEMENT publicationStmt (p, publisher+, avalability)>
+<!ELEMENT sourceDesc (bibl)>
+<!ELEMENT p (#PCDATA|seg)*>
+<!ELEMENT div (pb, opener, p)>
+<!ELEMENT graphic EMPTY>
+<!ELEMENT zone EMPTY>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT respStmt (resp, name)>
+<!ELEMENT publisher (#PCDATA|date)*>
+<!ELEMENT avalability (p)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT bibl (title, author, pubPlace, date)>
+<!ELEMENT opener (dateline, salute)>
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT pubPlace (#PCDATA)>
+<!ELEMENT dateline (#PCDATA|num|pc|choice|space|placeName)*>
+<!ELEMENT placeName (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT salute (#PCDATA|damage)*>
+<!ELEMENT damage (#PCDATA)>
+<!ELEMENT space EMPTY>
+<!ELEMENT pc (#PCDATA)>
+<!ELEMENT choice (abbr, expan)>
+<!ELEMENT abbr (#PCDATA)>
+<!ELEMENT expan (#PCDATA|ex)*>
+<!ELEMENT ex (#PCDATA)>
+<!ELEMENT seg (#PCDATA)>
+<!ELEMENT pb EMPTY>
+<!ATTLIST TEI xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST avalability status (free|unknown|restricted) #IMPLIED>
+<!ATTLIST date when CDATA #IMPLIED>
+<!ATTLIST div type CDATA #IMPLIED>
+<!ATTLIST placeName country CDATA #IMPLIED>
+<!ATTLIST placeName rend CDATA #IMPLIED>
+<!ATTLIST dateline lang CDATA #IMPLIED>
+<!ATTLIST num type (cardinal|ordinal|fraction|percentage) #IMPLIED>
+<!ATTLIST damage agent CDATA #IMPLIED>
+<!ATTLIST space dim (vertical|horizontal) #IMPLIED>
+<!ATTLIST pc unit CDATA #IMPLIED>
+<!ATTLIST abbr type (suspension|contraction|brevigraph|superscription|acronym|title|organization|geographic) #IMPLIED>
+<!ATTLIST seg rend CDATA #IMPLIED>
+<!ATTLIST pb facs CDATA  #IMPLIED>
+<!ATTLIST pb xml:id ID #IMPLIED>
+<!ATTLIST dateline facs CDATA  #IMPLIED>
+<!ATTLIST salute facs CDATA  #IMPLIED>
+<!ATTLIST p facs CDATA  #IMPLIED>
+<!ATTLIST surface xml:id ID #IMPLIED>
+<!ATTLIST surface start CDATA #IMPLIED>
+<!ATTLIST surface ulx CDATA #IMPLIED>
+<!ATTLIST surface uly CDATA #IMPLIED>
+<!ATTLIST surface lrx CDATA #IMPLIED>
+<!ATTLIST surface lry CDATA #IMPLIED>
+<!ATTLIST graphic url CDATA #REQUIRED>
+<!ATTLIST zone xml:id ID #IMPLIED>
+<!ATTLIST zone ulx CDATA #IMPLIED>
+<!ATTLIST zone uly CDATA #IMPLIED>
+<!ATTLIST zone lrx CDATA #IMPLIED>
+<!ATTLIST zone lry CDATA #IMPLIED>
