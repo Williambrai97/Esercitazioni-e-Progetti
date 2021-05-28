@@ -1,0 +1,12 @@
+<!DOCTYPE root
+    [
+
+
+    ]
+>
+<test>
+    <msg>Titolo di prova</msg>
+    <title>Titolo h1</title>
+    <div><p>Primo paragrafo</p></div>
+    <div><p>Secondo paragrafo</p></div>
+</test> 
